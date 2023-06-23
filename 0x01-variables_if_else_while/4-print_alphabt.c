@@ -14,11 +14,11 @@ int main(void)
 	{
 		if ((ch == 'q') || (ch == 'e'))
 		{
-			putchar("");
 			ch++;
 		}
 		else
 		{
+			putchar('ch');
 			ch++;
 		}
 	}
