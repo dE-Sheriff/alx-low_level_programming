@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	int num = 0
+	int num = 0;
 	/* using whilev loop */
 
 	while (num <= 9)
