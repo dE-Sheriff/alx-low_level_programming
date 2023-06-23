@@ -12,9 +12,9 @@ int main(void)
 
 	while (ch <= 'z')
 	{
-		if (ch == 'q' || ch == 'e')
+		if ((ch == 'q') || (ch == 'e'))
 		{
-			putchar('');
+			putchar("");
 			ch++;
 		}
 		else
