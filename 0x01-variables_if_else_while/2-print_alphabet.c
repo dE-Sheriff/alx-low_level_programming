@@ -9,10 +9,10 @@ int main(void)
 {
 	char ch = 'a';
 	/* using whilev loop */
+
 	while (ch <= 'z')
 	{
 		putchar(ch);
-	
 		ch++;
 	}
 	putchar('\n');
