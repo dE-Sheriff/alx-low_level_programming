@@ -18,7 +18,7 @@ int main(void)
 		}
 		else
 		{
-			putchar('ch');
+			putchar(ch);
 			ch++;
 		}
 	}
