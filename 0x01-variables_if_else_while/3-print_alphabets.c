@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
  * main - main block
- * Description: Print all lowercase letters then uppercase letter followed by new line.
+ * Description: Print all lowercase letters \
+then uppercase letter followed by new line.
  * You can only use `putchar` to print to the console.
  * You can only use `putchar` up to three times.
  * Return: 0
