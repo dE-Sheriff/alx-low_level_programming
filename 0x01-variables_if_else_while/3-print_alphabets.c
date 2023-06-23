@@ -1,4 +1,4 @@
-#include <stdio.hu>
+#include <stdio.h>
 /**
  * main - main block
  * Description: Print all lowercase letters then uppercase letter followed by new line.
