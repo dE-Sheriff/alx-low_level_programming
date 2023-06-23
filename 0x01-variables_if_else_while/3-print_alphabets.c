@@ -2,21 +2,22 @@
 
 int main(void)
 {
-        char ch = 'a';
+	char ch = 'a';
 	char uch = 'A';
 	/* using while loop */
 
-        while (ch <= 'z')
+	while (ch <= 'z')
 	{
 		putchar(ch);
 		ch++;
 	}
 	/* Another while loop */
 
-        while (uch <= 'Z')
+	while (uch <= 'Z')
 	{
-                putchar(uch);
+		putchar(uch);
 		uch++;
 	}
-        return (0);
+	putchar('\n')
+	return (0);
 }
