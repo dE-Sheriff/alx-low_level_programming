@@ -3,13 +3,21 @@
 int main(void)
 {
         char ch = 'a';
+	/* using while loop */
+
         while (ch <= 'z')
-                putchar(ch);
-		ch++
+	{
+		putchar(ch);
+		ch++;
+	}
 
         char CH = 'A'
+	/* Another while loop */
+
         while (CH <= 'Z')
+	{
                 putchar(CH);
-		CH++
+		CH++;
+	}
         return (0);
 }
