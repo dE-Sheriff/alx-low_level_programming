@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+#include <unistd.h>
 /**
 * main - print alphabets using _putchar
 * Return: 0
