@@ -3,6 +3,11 @@
 /* print _putchar*/
 
 int main(void)
+/**
+* main - print _putchar
+* Return: 0
+*/
+
 {
 	putchar('_');
 	putchar('p');
