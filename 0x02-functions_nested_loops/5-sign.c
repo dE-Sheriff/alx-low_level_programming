@@ -6,9 +6,9 @@
 */
 
 int print_sign(int n)
-/* n auto provided by header file
- * using if condition */
+/* using if condition */
 {
+	/* n auto provided by header file*/
 	if (n > 0)
 	{
 		_putchar('+');
