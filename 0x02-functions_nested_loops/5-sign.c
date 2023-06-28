@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 *print_sign - print alphabets using _putchar
-* @c:character to check if it islowercase.
+* @n:character to check if it is lowercase.
 * Return: 0 if true return: 1 if false
 */
 
