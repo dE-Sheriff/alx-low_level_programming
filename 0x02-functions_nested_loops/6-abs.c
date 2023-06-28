@@ -1,7 +1,7 @@
 #include "main.h"
 /**
-*_abs - print absolute value of character.
-* @a:character to check if it is lowercase.
+*_abs - print alphabets using _putchar
+* @a: integer to be turned to absolute value.
 * Return: 0 if true return: 1 if false
 */
 
@@ -9,9 +9,12 @@ int _abs(int a)
 /* using if condition */
 {
 	/* n auto provided by header file*/
-	anum = _abs(a0)
+	int n = a;
+	int nabs;
+	if (n < 0)
 	{
-		_putchar('anum')
+		n = n*(-1);
 	}
-	return (0);
+	nabs = n;
+	return (nabs);
 }
