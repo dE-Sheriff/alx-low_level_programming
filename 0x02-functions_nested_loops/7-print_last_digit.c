@@ -17,6 +17,6 @@ int print_last_digit(int a)
 	{
 		l_dig = l_dig *(-1);
 		printf(l_dig + '0');
-		return (l_dig)
-	{
+		return (l_dig);
+	}
 }
