@@ -16,6 +16,6 @@ int print_last_digit(int a)
 	if (a < 0)
 	{
 		l_dig = l_dig *(-1);
-		printf('last_dig');
+		printf('l_dig');
 	{
 }
