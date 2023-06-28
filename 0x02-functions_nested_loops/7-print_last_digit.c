@@ -1,4 +1,5 @@
 #include "main.h"
+#include "stdio.h"
 /**
 * print_last_digit - print alphabets using _putchar
 * @a: integer to be turned to absolute value.
@@ -15,6 +16,6 @@ int print_last_digit(int a)
 	if (a < 0)
 	{
 		last_dig = last_dig *(-1);
-		_printf('last_dig')
+		printf('last_dig')
 	{
 }
