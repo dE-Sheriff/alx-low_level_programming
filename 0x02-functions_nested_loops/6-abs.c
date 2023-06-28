@@ -11,9 +11,10 @@ int _abs(int a)
 	/* n auto provided by header file*/
 	int n = a;
 	int nabs;
+
 	if (n < 0)
 	{
-		n = n*(-1);
+		n = n * (-1);
 	}
 	nabs = n;
 	return (nabs);
