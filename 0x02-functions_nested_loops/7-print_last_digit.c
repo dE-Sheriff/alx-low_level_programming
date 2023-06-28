@@ -10,12 +10,12 @@ int print_last_digit(int a)
 /* using if condition */
 {
 	/* n auto provided by header file*/
-	int last_dig;
+	int l_dig;
 
-	last_dig = a % 10;
+	l_dig = a % 10;
 	if (a < 0)
 	{
-		last_dig = last_dig *(-1);
-		printf('last_dig')
+		l_dig = l_dig *(-1);
+		printf('last_dig');
 	{
 }
