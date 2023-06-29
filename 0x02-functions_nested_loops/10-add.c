@@ -5,12 +5,9 @@
 * Return: 0 if true return: 1 if false
 */
 
-int add(int, int)
+int add(int x, int y)
 /*sum of two integers */
 {
 	/* no special function */
-	int x,y;
-
-	sum = x + y;
-	return (sum);
+	return (x + y);
 }
