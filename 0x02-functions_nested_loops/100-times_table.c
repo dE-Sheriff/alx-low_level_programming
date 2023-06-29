@@ -19,7 +19,7 @@ void print_times_table(int n)
 			for (y= 1; y <= n; y++)
 			{
 				pr = x * y;
-				-putchar(44);
+				_putchar(44);
 				_putchar(32);
 				if (pr <= 9)
 				{
