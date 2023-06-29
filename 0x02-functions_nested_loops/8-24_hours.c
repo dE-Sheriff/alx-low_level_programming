@@ -23,11 +23,11 @@ void jack_bauer(void)
 					{
 						break;
 					}
-					_putchar(w);
-					_putchar(x);
+					_putchar(w + '0');
+					_putchar(x + '0');
 					_putchar(':');
-					_putchar(y);
-					_putchar(z);
+					_putchar(y + '0');
+					_putchar(z + '0');
 					_putchar('\n');
 				}
 			}
