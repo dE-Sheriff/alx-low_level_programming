@@ -8,7 +8,7 @@
 void times_table(void)
 /* printin multiplication table */
 {
-	int x,y,pr;
+	int x, y, pr;
 
 	for (x = 0; x <= 9; x++)
 	{
