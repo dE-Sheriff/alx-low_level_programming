@@ -11,12 +11,13 @@ void print_times_table(int n)
 {
 	/* no special function */
 	int x, y, pr;
+
 	if (n >= 0 && n <= 15)
 	{
 		for (x = 0; x <= n; x++)
 		{
 			_putchar(48);
-			for (y= 1; y <= n; y++)
+			for (y = 1; y <= n; y++)
 			{
 				pr = x * y;
 				_putchar(44);
