@@ -14,7 +14,7 @@ int main(void)
 
 	x1 = 1;
 	x2 = 2;
-	boolean = boolean2 = 11;
+	boolean = boolean2 = 1;
 	printf("%ld, %ld", x1, x2);
 	for (c = 0; c < 96; c++)
 	{
@@ -35,8 +35,8 @@ int main(void)
 				x2 = x2 / 1000000000;
 				boolean2 = 0;
 			}
-			fx2 = (x11 +x22);
-			fx = x1 +x2 + (fx2 / 1000000000);
+			fx2 = (x11 + x22);
+			fx = x1 + x2 + (fx2 / 1000000000);
 			printf(", %ld", fx);
 			printf("%ld", fx2 % 1000000000);
 			x1 = x2;
