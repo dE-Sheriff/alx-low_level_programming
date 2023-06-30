@@ -37,7 +37,7 @@ int main(void)
 			}
 			fx2 = (x11 +x22);
 			fx = x1 +x2 + (fx2 / 1000000000);
-			prinft(", %ld", fx);
+			printf(", %ld", fx);
 			printf("%ld", fx2 % 1000000000);
 			x1 = x2;
 			x11 = x22;
