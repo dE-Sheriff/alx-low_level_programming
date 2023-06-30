@@ -9,6 +9,7 @@ int main(void)
 /*sum of two integers */
 {
 	/* no special function */
+	int c, boolean, boolean2;
 	long int x1, x2, fx, fx2, x11, x22;
 
 	x1 = 1;
