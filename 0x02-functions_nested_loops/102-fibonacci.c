@@ -17,8 +17,8 @@ int main(void)
 	printf("%ld, %ld", n1, n2);	
 	for (b = 0; b < 48; b++)
 	{
-		fn = n1 + n2;
-		printf("%ld, fn);
+		fn = (n1 + n2);
+		printf("%ld" fn);
 		n1 = n2;
 		n2 = fn;
 	}
