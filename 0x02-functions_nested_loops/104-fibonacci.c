@@ -20,7 +20,7 @@ int main(void)
 	{
 		if (boolean)
 		{
-			fx = n1 + n2;
+			fx = x1 + x2;
 			printf(", %ld", fx);
 			x1 = x2;
 			x2 = fx;
