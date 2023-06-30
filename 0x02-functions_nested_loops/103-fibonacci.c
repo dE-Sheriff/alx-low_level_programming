@@ -21,10 +21,10 @@ int main(void)
 		x2 = fx;
 		if ((x1 % 2) == 0)
 		{
-			afn += x1;
+			afx += x1;
 		}
 	}
-	printf("ld\n", afx);
+	printf("%ld\n", afx);
 	return (0);
 
 }
