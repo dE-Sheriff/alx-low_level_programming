@@ -6,11 +6,12 @@
 */
 
 int main(void)
+/* testing positive or negative */
 {
-	 int i;
+	/* using i as variable*/
+	int i;
 
 	i = 0;
 	positive_or_negative(i);
-	
 	return (0);
 }
