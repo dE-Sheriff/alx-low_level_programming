@@ -9,7 +9,9 @@
  */
 
 int largest_number(int a, int b, int c)
+/* finding largest of three numbers */
 {
+	/* using if statement*/
 	int largest;
 
 	if ((a >= b) && (a >= c))
