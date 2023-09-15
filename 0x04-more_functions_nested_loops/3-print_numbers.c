@@ -2,7 +2,7 @@
 
 /**
  * print_numbers - prints numbers
- * return - Viod
+ * return : Viod
  */
 
 void print_numbers(void)
@@ -15,4 +15,3 @@ void print_numbers(void)
 	}
 	_putchar('\n');
 }
-
