@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * print_line - draw straight line
- * @n: number of times _ is printed
+ * print_diagonal - draw diagonal line
+ * @n: number of times \ is printed
  * Return: void
  */
 
-void print_line(int n)
+void print_diagonal(int n)
 {
 	if (n > 0)
 	{
