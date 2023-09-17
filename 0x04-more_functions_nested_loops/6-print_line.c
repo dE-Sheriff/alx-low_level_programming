@@ -2,6 +2,7 @@
 
 /**
  * print_line - draw straight line
+ * @n: number of times _ is printed
  * Return: void
  */
 
@@ -12,9 +13,13 @@ void print_line(int n)
 		int a;
 		
 		for (a = 1; a <= n; a++)
-			_putchar('_')
-		_putchar('\n')
+		{
+			_putchar('_');
+		}
+		_putchar('\n');
 	}
 	else
-		_putchar('\n')
+	{
+		_putchar('\n');
+	}
 }
