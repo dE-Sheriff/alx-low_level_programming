@@ -13,8 +13,8 @@ void print_line(int n)
 		
 		for (a = 1; a <= n; a++)
 			_putchar('_')
-		_putchar('_')
+		_putchar('\n')
 	}
-	else if (n <= 0)
+	else
 		_putchar('\n')
 }
