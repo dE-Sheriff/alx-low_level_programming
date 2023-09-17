@@ -19,7 +19,7 @@ void print_line(int n)
 			{
 				if (b == a)
 					_putchar('\\');
-				else (b < a)
+				else if (b < a)
 					_putchar(' ');
 			}
 			_putchar('\n');
