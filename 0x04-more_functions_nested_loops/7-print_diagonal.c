@@ -20,10 +20,9 @@ void print_line(int n)
 				_putchar('_');
 			}
 			if (b == a)
-			{
-				_putchar(\);
-			}
-			_putchar('_');
+				_putchar('\\');
+			else
+				_putchar('_');
 		}
 		_putchar('\n');
 	}
