@@ -19,8 +19,8 @@ void print_line(int n)
 			{
 				if (b == a)
 					_putchar('\\');
-				else
-					_putchar('_');
+				else(b < a)
+					_putchar(' ');
 			}
 			_putchar('\n');
 	}
