@@ -17,14 +17,12 @@ void print_line(int n)
 		{
 			for (b = 0; b < n; b++)
 			{
-				_putchar('_');
+				if (b == a)
+					_putchar('\\');
+				else
+					_putchar('_');
 			}
-			if (b == a)
-				_putchar('\\');
-			else
-				_putchar('_');
-		}
-		_putchar('\n');
+			_putchar('\n');
 	}
 	else
 	{
