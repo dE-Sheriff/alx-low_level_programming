@@ -17,11 +17,11 @@ void puts2(char *str)
 	a = 1;
 	while (a < coun)
 	{
-		if (a % 2 == 0)
+		if (a % 2 == 1)
 		{
 			a++;
 		}
-		else if (a % 2 == 1)
+		else if (a % 2 == 0)
 		{
 			r = str[a];
 			_putchar(r);
