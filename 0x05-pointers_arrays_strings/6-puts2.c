@@ -8,11 +8,11 @@
 
 void puts2(char *str)
 {
-	char r = s[0];
+	char r = str[0];
 	int coun = 0;
 	int a;
 
-	while (s[coun] != '\0')
+	while (str[coun] != '\0')
 	coun++;
 	a = 1;
 	while (a < coun)
@@ -23,7 +23,7 @@ void puts2(char *str)
 		}
 		else if (a % 2 == 1)
 		{
-			r = s[a];
+			r = str[a];
 			_putchar(a);
 			a++;
 		}
