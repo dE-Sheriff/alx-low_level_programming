@@ -17,7 +17,7 @@ void puts2(char *str)
 	a = 0;
 	while (a < coun)
 	{
-		if (a % 2 == i)
+		if (a % 2 == 1)
 		{
 			a++;
 		}
