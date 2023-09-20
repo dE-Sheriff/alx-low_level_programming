@@ -14,14 +14,14 @@ void puts2(char *str)
 
 	while (str[coun] != '\0')
 	coun++;
-	a = 1;
+	a = 0;
 	while (a < coun)
 	{
-		if (a % 2 == 1)
+		if (a % 2 == 0)
 		{
 			a++;
 		}
-		else if (a % 2 == 0)
+		else if (a % 2 == 1)
 		{
 			r = str[a];
 			_putchar(r);
