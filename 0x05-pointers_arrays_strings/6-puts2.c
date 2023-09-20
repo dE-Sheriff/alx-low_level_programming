@@ -8,7 +8,7 @@
 
 void puts2(char *str)
 {
-	char r = str[0];
+	char r;
 	int coun = 0;
 	int a;
 
@@ -24,7 +24,7 @@ void puts2(char *str)
 		else if (a % 2 == 1)
 		{
 			r = str[a];
-			_putchar(a);
+			_putchar(r);
 			a++;
 		}
 	}
