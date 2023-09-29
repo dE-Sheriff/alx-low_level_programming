@@ -1,23 +1,22 @@
 #include "main.h"
 
 /**
- * _strcmp - a function that compares two strings.
- * @s1: first string
- * @s2: second string
- * Return: s1[a] - s2[a]
+ * reverse_array - a function that
+ * reverses the content of an array of integers
+ * @a: first string
+ * @n: second string
+ * Return: void
  */
 
-int _strcmp(char *s1, char *s2)
+void reverse_array(int *a, int n)
 {
-	int a;
-	
-	a = 0;
-	while (s1[a] != '\0' && s2[a] != '\0')
+	int x;
+	int y;
+
+	for (x = 0; x < n--; x++)
 	{
-		if (s1[a] != s2[a])
-		{
-			return (s1[a] - s2[a]);
-		}
-		a++;
+		y = a[x];
+		a[x] = a[n];
+		a[n] = y;
 	}
 }
