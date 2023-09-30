@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * leet - a function that encodes a string into 1337 
+ * leet - a function that encodes a string into 1337
  * @n: second string
  * Return: char
  */
@@ -33,7 +33,7 @@ char *leet(char *n)
 		{
 			n[a] = '1';
 		}
-		a++
+		a++;
 	}
 	return (n);
 }

@@ -13,9 +13,9 @@ char *cap_string(char *n)
 	a = 0;
 	while (n[a] != '\0')
 	{
-		if (!(n[0] >= 'a') && (n[0] <= 'z'))
+		if (!(n[a] >= 'a') && (n[a] <= 'z'))
 		{
-			while (!(n[0] >= 'a') && (n[0] <= 'z'))
+			while (!(n[a] >= 'a') && (n[a] <= 'z'))
 			{
 				a++;
 			}
