@@ -28,6 +28,7 @@ char *cap_string(char *n)
 			n[0] = n[0] - 32;
 		}
 		a++;
+		}
 	}
 	return (n);
 }
