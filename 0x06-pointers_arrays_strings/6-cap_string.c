@@ -13,7 +13,7 @@ char *cap_string(char *n)
 	a = 0;
 	while (n[a] != '\0')
 	{
-		if (n[a] == ' ' || n[a] == '')
+		if ((n[a] == ' ') || (n[a] == '.'))
 		{
 			a++;
 			if ((n[a] >= 'a') && (n[a] <= 'z'))
