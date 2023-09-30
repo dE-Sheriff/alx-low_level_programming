@@ -15,7 +15,10 @@ char *cap_string(char *n)
 	{
 		if ((n[a] == ' ') || (n[a] == '.'))
 		{
-			a++;
+			while ((n[a] == ' ') || (n[a] == '.'))
+			{
+				a++;
+			}
 			if ((n[a] >= 'a') && (n[a] <= 'z'))
 			{
 				n[a] = n[a] - 32;
