@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
  * _strdup - a function that returns
@@ -11,16 +12,15 @@ char *_strdup(char *str)
 {
 	char *arrc;
 	int x = 0;
+	int a;
 
 	if (str == NULL)
-		return (NULL)
+		return (NULL);
 	while (str[x] != '\0')
 		x++;
 	arrc = malloc(sizeof(char) * (x + 1));
 	if (arrc == NULL)
 		return (NULL);
-	int a;
-
 	for (a = 0; str[a]; a++)
 		arrc[a] = str[a];
 
