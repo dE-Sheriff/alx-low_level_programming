@@ -36,7 +36,7 @@ char *str_concat(char *s1, char *s2)
 		x++;
 	}
 
-	while (s2[ci] != '\0')
+	while (s2[a] != '\0')
 	{
 		arrc[x] = s2[a];
 		x++, a++;
