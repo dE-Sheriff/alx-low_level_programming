@@ -3,7 +3,7 @@
 
 /**
  * argstostr - a function that concatenates all
- * the arguments of your program 
+ * the arguments of your program
  * @ac: the 1st string
  * @av: the string
  * Return: int
