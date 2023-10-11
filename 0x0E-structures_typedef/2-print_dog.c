@@ -5,7 +5,6 @@
 /**
  * print_dog - a function that initialize a variable of type struct dog
  * @d: the struct
- * Return: void
  */
 
 void print_dog(struct dog *d)
