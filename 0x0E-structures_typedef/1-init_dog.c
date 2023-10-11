@@ -7,7 +7,6 @@
  * @name: name argument
  * @age: age argument
  * @owner: owner name
- *
  * Return: On success 1.
  */
 
