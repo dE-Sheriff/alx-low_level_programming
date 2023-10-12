@@ -1,3 +1,2 @@
-0x08-recursion
-7 mandatory projects
-2 Advanced
+0x0D. C - Preprocessor
+4 mandatory projects
