@@ -13,7 +13,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 {
 	va_list ptr;
 	unsigned int x;
-	char i;
+	char *i;
 
 	va_start(ptr, n);
 	for (x = 0; x < n; x++)
@@ -27,5 +27,5 @@ void print_strings(const char *separator, const unsigned int n, ...)
 			printf("%s", separator);
 	}
 	printf("\n");
-	va_end(ptr)
+	va_end(ptr);
 }
