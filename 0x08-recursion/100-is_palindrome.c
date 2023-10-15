@@ -1,31 +1,47 @@
 #include "main.h"
 
-/**
- * is_prime_number - check if n is prime number
- * @n: the num
- * Return: int
- */
+int check_pal(char *s, int i, int len);
+int _strlen_recursion(char *s);
 
-int is_prime_number(int n)
+/**
+ * is_palindrome - checks if a string is a palindrome
+ * @s: string to reverse
+ *
+ * Return: 1 if it is, 0 it's not
+ */
+int is_palindrome(char *s)
 {
-	if (n <= 1)
-		return (0);
-	return (check_prime(n, n - 1));
+	if (*s == 0)
+		return (1);
+	return (check_pal(s, 0, _strlen_recursion(s)));
 }
 
 /**
- * check_prime - calculates if a number is prime recursively
- * @n: the int
- * @x: count
+ * _strlen_recursion - returns the length of a string
+ * @s: string to calculate the length of
  *
- * Return: int
+ * Return: length of the string
  */
-
-int check_prime(int n, int x)
+int _strlen_recursion(char *s)
 {
-	if (x == 1)
-		return (1);
-	if (n % x == 0 && i > 0)
+	if (*s == '\0')
 		return (0);
-	return (actual_prime(n, x - 1));
+	return (1 + _strlen_recursion(s + 1));
+}
+
+/**
+ * check_pal - checks the characters recursively for palindrome
+ * @s: string to check
+ * @i: iterator
+ * @len: length of the string
+ *
+ * Return: 1 if palindrome, 0 if not
+ */
+int check_pal(char *s, int i, int len)
+{
+	if (*(s + i) != *(s + len - 1))
+		return (0);
+	if (i >= len)
+		return (1);
+	return (check_pal(s, i + 1, len - 1));
 }
