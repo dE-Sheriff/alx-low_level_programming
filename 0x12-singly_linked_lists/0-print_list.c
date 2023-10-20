@@ -1,5 +1,7 @@
 #include "lists.h"
 
+struct list_s;
+
 /**
  * print_list - a function that prints all the elements of a list_t list.
  * @h: the struct data to print its element
