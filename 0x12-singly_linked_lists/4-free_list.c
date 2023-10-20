@@ -8,27 +8,13 @@
 
 void free_list(list_t *head)
 {
-	list_t *add;
-	list_t *tmp = *head;
-	unsigned int len = 0;
+	list_t *tmp;
 
-	while (str[len])
-		len++;
-	add = malloc(sizeof(list_t));
-	if (!add)
-		return (NULL);
-	add->str = strdup(str);
-	add->len = len;
-	add->next = NULL;
-
-	if (*head == NULL)
+	while (head)
 	{
-		*head = add;
-		return (add);
+		tmp = head->next;
+		free(head->str);
+		free(head);
+		head = tmp;
 	}
-	while (tmp->next)
-		tmp = tmp->next;
-	tmp->next = add;
-
-	return (add);
 }
