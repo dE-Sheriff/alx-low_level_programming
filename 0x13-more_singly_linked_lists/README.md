@@ -1,3 +1,4 @@
-0x08-recursion
-7 mandatory projects
-2 Advanced
+0x13. C - More singly linked lists
+
+10 mandatory projects
+4 Advanced
