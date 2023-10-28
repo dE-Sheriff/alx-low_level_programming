@@ -5,9 +5,6 @@
  *
  * Return: 0 if big endian, 1 if little endian
  */
-
-typedef int make_iso_compilers_happy;
-
 int get_endianness(void)
 {
 	int a;
