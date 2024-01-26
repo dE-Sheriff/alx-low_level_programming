@@ -10,24 +10,28 @@
 
 dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
-	dlistint_t *new_h;
-	dlistint_t *h = *head;
+	dlistint_t *tmp_list;
 
-	if (head == NULL || h == NULL)
+	if (head == NULL)
 		return (NULL);
-
-	new_h = malloc(sizeof(dlistint_t));
-	if (new_h == NULL)
+	tmp_list = malloc(sizeof(dlistint_t));
+	if (tmp_list == NULL)
 		return (NULL);
+	/* add the int to the data of the d-l-l*/
+	tmp_list->n = n;
+	/* set the prev to NULL so that it becomes the head */
+	tmp_list->prev = NULL;
+	/* push the pointer to pointer of our list to the end of the node */
+	tmp_list->next = *head;
 
-	new_h->prev = NULL;
-	new_h->n = n;
-	new_h->next = h;
+	/* point our tmp_list to the pointer of the pointer of the d-l-l*/
+	*head = tmp_list;
 
-	if (h != NULL)
-		h->prev = new_h;
-
-	*head = new_h;
-
-	return (new_h);
+	if (tmp_list->next != NULL)
+	{
+		/*this is where the `magic' happens to ensure that the */
+		/* tail of the list is not empty */
+		(tmp_list->next)->prev = tmp_list;
+	}
+	return (tmp_list);
 }
