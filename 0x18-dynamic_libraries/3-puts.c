@@ -2,17 +2,17 @@
 
 /**
  * _puts - prints a string, followed by a new line
- * @str: the string to print
+ * @s: the string to print
  * Return: void
  */
 
-void _puts(char *str)
+void _puts(char *s)
 {
 	char c;
 
-	while (*str != '\0')
+	while (*s != '\0')
 	{
-		c = *str++;
+		c = *s++;
 		_putchar(c);
 	}
 
